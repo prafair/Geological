@@ -14,7 +14,7 @@
     <c:url value="/add" var="var"/>
 </c:if>
 <c:if test="${!empty geo.name}">
-    <c:url value="/edit" var="var"/>
+    <c:url value="/add" var="var"/>
 </c:if>
 <form action="${var}" method="POST">
     <c:if test="${!empty geo.name}">
